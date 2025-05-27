@@ -1,9 +1,15 @@
-## Interface: 100000
-## Title: AdiBags - Fishing
-## Notes: Addon will filter all fishing equipment and more! Keeps the bags clean.
-## Version: 4.1
-## Author: Frostaphim @ EU-Xavius
-## DefaultState: enabled
+## Interface: 110105
 
-Localization.lua
-AdiBags_fishing.lua
+## Title: AdiBags - Fishing
+## Version: 11.1.5
+## Notes: Adds various fishing items to AdiBags groups.
+## Author: Frostaphim-Xavius
+
+## DefaultState: enabled
+## Dependencies: AdiBags
+
+## IconTexture: Interface\ICONS\inv_fishingpole_01
+
+expansion.lua
+DF-db.lua
+core.lua
