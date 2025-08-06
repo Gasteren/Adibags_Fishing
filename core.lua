@@ -1,4 +1,3 @@
--- Created by Frostaphim-Xavius || Feel free to credit or w/e
 ---@type
 local addonName, addonTable = ...
 

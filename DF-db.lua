@@ -1,5 +1,5 @@
 -- AdiBags_fishing - Adds various lures,poles,hats and boots to filter out
--- Created by Frostaphim, character is Frostaphim-xavius please credit whenever.
+-- Created by Frost, character is Frost-Lightbringer please credit whenever.
 
 ---@type
 ---

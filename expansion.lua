@@ -3,5 +3,6 @@ local addonName, addonTable = ...
 
 addonTable.expansion = {
   Shadowlands = "Shadowlands",
-  Dragonflight = "Dragonflight"
+  Dragonflight = "Dragonflight",
+  WarWithin = "War Within"
 }

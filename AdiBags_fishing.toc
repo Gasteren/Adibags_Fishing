@@ -1,9 +1,9 @@
 ## Interface: 110107, 110200
 
 ## Title: AdiBags - Fishing
-## Version: 11.1.7
+## Version: 11.2
 ## Notes: Adds various fishing items to AdiBags groups.
-## Author: Frostaphim-Xavius
+## Author: Frost-Lightbringer
 
 ## DefaultState: enabled
 ## Dependencies: AdiBags
