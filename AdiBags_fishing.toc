@@ -4,6 +4,7 @@
 ## Version: 11.2
 ## Notes: Adds various fishing items to AdiBags groups.
 ## Author: Frost-Lightbringer
+## Group: Tools by: Frostaphim | Frost-Lightbringer
 
 ## DefaultState: enabled
 ## Dependencies: AdiBags
