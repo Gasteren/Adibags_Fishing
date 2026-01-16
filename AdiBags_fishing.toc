@@ -1,7 +1,7 @@
 ## Interface: 110205, 110207, 120000
 
 ## Title: AdiBags - Fishing
-## Version: 11.7
+## Version: 12.0.0
 ## Notes: Adds various fishing items to AdiBags groups.
 ## Author: Frost-Lightbringer
 ## Group: Tools by: Frostaphim | Frost-Lightbringer
@@ -13,4 +13,5 @@
 
 expansion.lua
 DF-db.lua
+
 core.lua
