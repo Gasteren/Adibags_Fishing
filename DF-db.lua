@@ -156,6 +156,36 @@ db.Filters = {
 			[220135] = true, --
 			[220137] = true, --
 			[228954] = true, -- Anglers guide to learn "find fish"
+			----------------------------- Midnight entrys -----------------------------
+			-- Poles
+			[244711] = true, -- Farstrider Hobbyist Rod | +55 Perception | +8 Midnight Fishing
+			[244712] = true, -- Sin'dorei Angler's Rod | +56 Perception | +18 Midnight Fishing
+			[259179] = true, -- Sin'dorei Reeler's Rod | +56 Perception | +18 Midnight Fishing
+
+			-- Lures
+			[241147] = true, -- Blood Hunter Lure
+			[241145] = true, -- Lucky Loa Lure
+			[241149] = true, -- Ominous Octopus Lure
+			[241150] = true, -- Sunwell Fish Lure
+			[241148] = true, -- Amani Angler's Ward | Anti Lure: Prevents Blood Hunter Spirits from spawning
+
+			-- Enchants
+			[262796] = true, -- Midnight Angler's Grand Line | Double Treasure chance
+			[262795] = true, -- Angler's Bloomline
+			[262793] = true, -- Stranded Bloomline
+			[262794] = true, -- Weak Bloomline
+			[262800] = true, -- Angler's Glimmerline
+			[262797] = true, -- Shredded Glimmerline
+			[262798] = true, -- Stranded Glimmerline
+			[262799] = true, -- Weak Glimmerline
+
+			-- Other
+			[255157] = true, -- Abyss Angler's Fish Log | Increase Midnight Fishing skill by 3, max 300
+			[262649] = true, -- An Angler's Deep Dive | Increase Midnight Fishing skill by 10, max 300
+			[243343] = true, -- Angler's Anomaly | Release the Voidstorm creating an Oceanic Vortex to cast into
+
+			-- Pet
+			[260942] = true, -- Bubbly Snapling
 		}
 	}
 }
