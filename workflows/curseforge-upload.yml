@@ -1,8 +1,9 @@
 name: Upload to CurseForge
 
 on:
-  release:
-    types: [published]
+  push:
+    branches:
+      - main
 
 jobs:
   upload:
@@ -26,6 +27,6 @@ jobs:
           file_path: "AdiBags_Fishing.zip"
           game_versions: "wow-retail"
           release_type: "release"
-          display_name: "${{ github.event.release.name }}"
-          changelog: "${{ github.event.release.body }}"
+          display_name: "${{ github.sha }}"
+          changelog: "${{ github.event.head_commit.message }}"
           changelog_type: "markdown"
