@@ -1,0 +1,31 @@
+name: Upload to CurseForge
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Create zip
+        run: |
+          mkdir AdiBags_Fishing
+          cp *.lua *.toc AdiBags_Fishing/
+          zip -r AdiBags_Fishing.zip AdiBags_Fishing
+
+      - name: Upload to CurseForge
+        uses: itsmeow/curseforge-upload@v3
+        with:
+          token: "${{ secrets.ADIBAGS_FISHING }}"
+          project_id: "269672"
+          game_endpoint: "wow"
+          file_path: "AdiBags_Fishing.zip"
+          game_versions: "wow-retail"
+          release_type: "release"
+          display_name: "${{ github.event.release.name }}"
+          changelog: "${{ github.event.release.body }}"
+          changelog_type: "markdown"
