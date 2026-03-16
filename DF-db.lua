@@ -179,6 +179,9 @@ db.Filters = {
 			[262798] = true, -- Stranded Glimmerline
 			[262799] = true, -- Weak Glimmerline
 
+			-- Hats
+			[2396338] = true -- Elegant Artisan's Fishing Hat | increas fishing skill
+
 			-- Other
 			[255157] = true, -- Abyss Angler's Fish Log | Increase Midnight Fishing skill by 3, max 300
 			[262649] = true, -- An Angler's Deep Dive | Increase Midnight Fishing skill by 10, max 300
