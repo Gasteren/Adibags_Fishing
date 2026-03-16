@@ -180,7 +180,7 @@ db.Filters = {
 			[262799] = true, -- Weak Glimmerline
 
 			-- Hats
-			[2396338] = true -- Elegant Artisan's Fishing Hat | increas fishing skill
+			[2396338] = true -- Elegant Artisan's Fishing Hat | increase fishing skill
 
 			-- Other
 			[255157] = true, -- Abyss Angler's Fish Log | Increase Midnight Fishing skill by 3, max 300
