@@ -27,6 +27,6 @@ jobs:
           file_path: "AdiBags_Fishing.zip"
           game_versions: "12.0.1"
           release_type: "release"
-          display_name: "${{ github.sha }}"
+          display_name: "AdiBags_Fishing - ${{ github.event.head_commit.timestamp }}"
           changelog: "${{ github.event.head_commit.message }}"
           changelog_type: "markdown"
