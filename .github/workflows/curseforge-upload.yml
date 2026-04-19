@@ -25,7 +25,7 @@ jobs:
           project_id: "269672"
           game_endpoint: "wow"
           file_path: "AdiBags_Fishing.zip"
-          game_versions: "12.0.1"
+          game_versions: "12.0.5"
           release_type: "release"
           display_name: "AdiBags_Fishing - ${{ github.event.head_commit.timestamp }}"
           changelog: "${{ github.event.head_commit.message }}"
