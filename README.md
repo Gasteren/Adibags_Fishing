@@ -31,14 +31,6 @@ The addon is enabled automatically when you run Adibags.
 
 ---
 
-## ⚙️ Commands
-
-- `/adibags` — Opens Adibags (default command).
-
-No additional commands are needed for this plugin.
-
----
-
 ## 🔮 What to Expect
 
 - More fishing-related items added through expansions.  
