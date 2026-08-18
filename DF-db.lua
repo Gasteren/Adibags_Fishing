@@ -158,9 +158,10 @@ db.Filters = {
 			[228954] = true, -- Anglers guide to learn "find fish"
 			----------------------------- Midnight entrys -----------------------------
 			-- Poles
-			[244711] = true, -- Farstrider Hobbyist Rod | +55 Perception | +8 Midnight Fishing
-			[244712] = true, -- Sin'dorei Angler's Rod | +56 Perception | +18 Midnight Fishing
-			[259179] = true, -- Sin'dorei Reeler's Rod | +56 Perception | +18 Midnight Fishing
+			[244711] = true, -- Farstrider Hobbyist Rod	| +55 Perception | +8 Midnight Fishing
+			[244712] = true, -- Sin'dorei Angler's Rod	| +56 Perception | +18 Midnight Fishing
+			[259179] = true, -- Sin'dorei Reeler's Rod	| +56 Perception | +18 Midnight Fishing
+			[244790] = true, -- The Coiled Huntress		| +55 Perception | +18 Midnight Fishing
 
 			-- Lures
 			[241147] = true, -- Blood Hunter Lure
