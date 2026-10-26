@@ -8,6 +8,10 @@ local db = {}
 -- Get reference
 local AdiBags = LibStub("AceAddon-3.0"):GetAddon("AdiBags")
 
+-- Addon version is read from the TOC, so it only has to be updated there
+local GetAddOnMetadata = C_AddOns and C_AddOns.GetAddOnMetadata or GetAddOnMetadata
+local addonVersion = GetAddOnMetadata(addonName, "Version") or ""
+
 local Result = {}
 
 local debugMode = false
@@ -35,7 +39,7 @@ local function CreateFilter(name, uiName, uiDesc, title, items)
 	local filter = AdiBags:RegisterFilter(uiName, 98, "ABEvent-1.0")
 	-- Register Filter with adibags
 	filter.uiName = uiName
-	filter.uiDesc = uiDesc .. "     Version: " .. "10.0.02"
+	filter.uiDesc = uiDesc .. "     Version: " .. addonVersion
 	filter.items = items
 
 	function filter:OnInitialize()
