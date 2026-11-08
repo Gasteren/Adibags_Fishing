@@ -3,7 +3,7 @@
 ## Title: AdiBags - Fishing
 ## Version: 1.0.1
 ## Notes: Adds various fishing items to AdiBags groups.
-## Author: Frost-Lightbringer
+## Author: Frost Forever | EU Normal Ruleset
 ## X-Curse-Project-ID: 269672
 
 ## DefaultState: enabled
